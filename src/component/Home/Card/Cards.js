@@ -9,7 +9,7 @@ const Cards = () => {
   return (
     <Container className="header-top">
       <Row>
-        <Col md="8">
+        <Col md="8"  className="item-margin">
           <Card style={{ width: "100%", height: "100%" }}>
             <Card.Img className="overlay-image" variant="top" src={bg1} />
             <Card.Body className="top-right">
@@ -19,6 +19,7 @@ const Cards = () => {
             </Card.Body>
           </Card>
         </Col>
+       
         <Col md="4">
             <Card style={{ width: "100%" }}>
               <Card.Img className="image-h1" variant="top" src={bg2} />
