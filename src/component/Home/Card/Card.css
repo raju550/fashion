@@ -1,10 +1,24 @@
 .top-right{
     position: absolute;
-  top: 8px;
-  right: 16px;
-  color: white;
-  font-weight: bold;
+  top: 20px;
+  right: 5px;
+  left: 60%;
+  text-align: center;
 }
-.overlay-image{
-    filter: brightness(30%);
+.text-big{
+  font-weight: bolder;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.left-card{
+  position: absolute;
+  top: 20px;
+  right: 60%;
+  left: 5px;
+  text-align: center;
+}
+.header-top{
+  margin-top: 20px;
 }

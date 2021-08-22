@@ -1,46 +1,30 @@
 import React from 'react'
 import { Button, Col, Container, Row, Card } from 'react-bootstrap'
 import './Card.css'
+import bg1 from '../../../media/slide1.jpg'
+import bg2 from '../../../media/s2.jpg'
+import bg3 from '../../../media/s3.jpg'
 
 const Cards = () => {
     return (
-        <Container>
+        <Container className="header-top">
             <Row>
-                <Col md="7"><Card style={{ width: '100%', height:"100%" }}>
-                    <Card.Img className="overlay-image" variant="top" src="https://images.pexels.com/photos/346751/pexels-photo-346751.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                <Col md="8"><Card style={{ width: '100%', height:"100%" }}>
+                    <Card.Img className="overlay-image" variant="top" src={bg1} />
                     <Card.Body className="top-right">
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <h3>Big Sale</h3>
+                        <h1 className="text-big">Women's Summer Collection</h1>
+                        <Button variant="danger">Shop Now</Button>
                     </Card.Body>
                 </Card></Col>
              
-                <Col md="5">
+                <Col md="4">
                 <Row style={{height:"100%"}}>
-                        <Row md="6"><Card style={{ width: '100%'  }}>
-                            <Card.Img variant="top" src="holder.js/100px180" />
-                            <Card.Body >
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
-                                </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
-                            </Card.Body>
+                        <Row md="6" style={{marginBottom:'10px'}}><Card style={{ width: '100%' }}>
+                            <Card.Img className="image-h1" variant="top" src={bg2} />
                         </Card></Row>
-                        <Row md="6"><Card style={{ width: '100%' }}>
-                            <Card.Img variant="top" src="holder.js/100px180" />
-                            <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
-                                </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
-                            </Card.Body>
+                        <Row md="6"><Card style={{ width: '100%'}}>
+                            <Card.Img className="image-h1" variant="top" src={bg3} />
                         </Card></Row>
                     </Row>
                 </Col>
