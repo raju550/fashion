@@ -1,6 +1,7 @@
 import React from 'react'
 import Cards from '../Card/Cards'
 import Contact from '../Contact/Contact'
+import FeatureProduct from '../FreatureProduct/FeatureProduct'
 import Navbars from '../Navbar/Navbars'
 
 const Home=()=> {
@@ -9,6 +10,7 @@ const Home=()=> {
             <Navbars></Navbars>
             <Cards></Cards>
             <Contact></Contact>
+            <FeatureProduct></FeatureProduct>
         </div>
     )
 }

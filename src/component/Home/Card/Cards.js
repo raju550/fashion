@@ -42,15 +42,6 @@ const Cards = () => {
               </Card>
             </Carousel.Item>
           </Carousel>
-
-          {/* <Card style={{ width: "100%", height: "100%" }}>
-            <Card.Img className="overlay-image" variant="top" src={bg1} />
-            <Card.Body className="top-right">
-              <h3>Big Sale</h3>
-              <h2 className="text-big">Women's Summer Collection</h2>
-              <Button variant="danger">Shop Now</Button>
-            </Card.Body>
-          </Card> */}
         </Col>
 
         <Col md="4">
